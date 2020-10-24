@@ -1,0 +1,30 @@
+.flex{
+	display: flex;
+}
+.justify-btw{
+	justify-content: space-between;
+}
+.justify-ard{
+	justify-content: space-around;
+}
+.text-center{
+	text-align: center;
+}
+.text-ryt{
+	text-align: right;
+}
+.float-ryt{
+	float: right;
+}
+ul li{
+	list-style-type: none;
+}
+a{
+	text-decoration: none;
+	color: white;
+	/*font-size: 23px;*/
+}
+a:hover{
+	color: #b38f00;
+	font-size: 22px;
+}

@@ -1,0 +1,151 @@
+@font-face {
+  font-family: pridi-bold;
+  src: url(fonts/pridi/Pridi-Bold.ttf);
+}
+@font-face {
+  font-family: pridi-light;
+  src: url(fonts/pridi/Pridi-Light.ttf);
+}
+@font-face {
+  font-family: pridi-extra-light;
+  src: url(fonts/pridi/Pridi-ExtraLight.ttf);
+}
+@font-face {
+  font-family: oleo-regular;
+  src: url(fonts/oleo/OleoScript-Regular.ttf);
+}
+@font-face {
+  font-family: Piedra-Regular;
+  src: url(fonts/Piedra/Piedra-Regular.ttf);
+}
+body{
+	padding: 0px;
+	margin: 0px;
+	background-color: white;
+}
+header > div.text-center{
+	height: 25vh;
+	padding: 20px 0px;
+	/*background-color: yellow;*/
+}
+header > div.text-center h1{
+	font-family: Piedra-Regular;
+	font-size: 60px;
+	color: #FF6651;
+}
+header > div.text-center p{
+	font-family: oleo-regular;
+	color: #b38f00;
+}
+nav{
+	background-color: #FE914F;
+	width: 80%;
+	margin: auto;
+	padding: 10px;
+	font-size: 20px;
+}
+section#home > div.flex.text-center{
+	width: 70%;
+	margin: auto;
+
+}
+section#home img{
+	padding-top: 35px;
+}
+section#home > div:last-child h2{
+	/*width: 40%;*/
+	padding-top: 60px;
+	color: #FF6651;
+	font-size: 40px;
+	font-family: oleo-regular;
+}
+section#home > div:last-child p{
+	color: black;
+	font-size: 25px;
+}
+.morebtn{
+	padding: 10px 20px;
+	background-color: #FF9251;
+	border: 1px solid white;
+	cursor: pointer;
+	font-size: 17px;
+}
+.morebtn:focus{
+	outline: none;
+	border-radius: 20px 50px; 
+}
+.morebtn:hover{
+	background-color: transparent;
+	border: 1px solid #FF9251;
+	cursor: pointer;
+	border-radius: 20px 50px;
+}
+section#about{
+	height: 70vh;
+	background-color: #F1F1F1;
+	padding: 130px 15px 0px 15px;
+}
+section#about h1{
+	color: #FF6651;
+	font-family: pridi-bold;
+	/*text-decoration: underline;*/
+}
+section#about h4{
+	font-size: 20px;
+}
+section#about a{
+	color: black;
+	font-size: 20px;
+}
+section#about a:hover{
+	color: #8a8a5c; 
+}
+section#about h5{
+	font-size: 18px;
+}
+section#about span{
+	color: #FF9251;
+}
+section#our_service > div.flex{
+	width: 70%;
+	height: 70vh;
+	margin: auto;
+	padding-top: 70px;
+}
+section#our_service > div.flex i{
+	font-size: 40px;
+	color: grey;
+}
+section#our_service > div.flex div.contain.text-center:hover{
+	color: #F26C49;
+	background-color: #F1F1F1
+}
+section#our_service > div.flex i:hover{
+	color: #FE914F;
+}
+.contain{
+	width: 30%;
+	padding: 15px;
+	border: 1px solid grey;
+	margin: auto;
+}
+section#our_services{
+	background: url("../img/img3.jpg") no-repeat;
+	height: 60vh;
+	/*padding: 70px;*/
+	margin:  70px;
+}
+section#our_services div.content{
+	border: 2px solid #F26C49;
+	box-shadow: 1px 2px 3px 2px #FE914F;
+	border-radius: 20px;
+	width: 40%;
+	color: #FE914F;
+	float: right;
+	margin-top: 150px;
+	padding: 5px;
+}
+
+
+
+
