@@ -66,4 +66,18 @@
 		color: #ff751a;
 		font-size: 30px;
 	}
+	footer{
+		flex-direction: column;
+		background-color: #FE914F;
+		color: white;
+		height: 30vh;
+		padding: 30px;
+		font-size: 20px;
+	}
+	footer i{
+		font-size: 25px;
+		color: #999966;
+		flex-direction: column;
+		padding-right: 20pxpx;
+	}
 }
